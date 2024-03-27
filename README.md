@@ -1,0 +1,1 @@
+This cryptocurrency website uses HTML, CSS, and JavaScript to display and update the latest prices for Bitcoin, Ethereum, and Dogecoin using AJAX requests to the CoinGecko API. jQuery simplifies working with the DOM and making AJAX requests.
