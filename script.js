@@ -15,3 +15,10 @@ $.ajax(settings).done(function(response){
     eth.innerHTML=response.ethereum.inr;
     doge.innerHTML=response.dogecoin.inr;
 });
+
+const handleClick = function() {
+    window.location.assign("https://crypto.com/price");
+  };
+
+const moreButton = document.getElementById("more");
+moreButton.addEventListener("click", handleClick);
